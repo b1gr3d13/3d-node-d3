@@ -1,0 +1,37 @@
+rank,source,target,value,txrate,rxrate,dtype,drisk
+7,sp,Authn Proxy,1,1 MB/s,1 MB/s,proxied data,red
+10,LB1,n-fed-01,1,1 MB/s,1 MB/s,proxied data,red
+10,LB1,n-fed-02,1,1 MB/s,1 MB/s,proxied data,red
+10,LB1,n-fed-03,1,1 MB/s,1 MB/s,proxied data,red
+10,LB2,n-fed-04,1,1 MB/s,1 MB/s,proxied data,red
+10,LB2,n-fed-05,1,1 MB/s,1 MB/s,proxied data,red
+10,LB2,n-fed-06,1,1 MB/s,1 MB/s,proxied data,red
+8,Authn Proxy,LB1,1,1 MB/s,1 MB/s,proxied data,red
+9,Authn Proxy,LB2,1,1 MB/s,1 MB/s,proxied data,blue
+a,admin,admin-laptop,1,1 MB/s,1 MB/s,proxied data,blue
+1,user,user-laptop,1,1 MB/s,1 MB/s,proxied data,blue
+3,user-laptop,user-device,1,1 MB/s,1 MB/s,proxied data,blue
+2,user,user-device,1,1 MB/s,1 MB/s,proxied data,blue
+4,user-device,agent,1,1 MB/s,1 MB/s,proxied data,blue
+5,agent,resource,1,1 MB/s,1 MB/s,proxied data,blue
+6,agent,sp,1,1 MB/s,1 MB/s,proxied data,blue
+b,admin-laptop,sp,1,1 MB/s,1 MB/s,proxied data,blue
+c,admin-laptop,idp,1,1 MB/s,1 MB/s,proxied data,blue
+11,n-fed-01,authn,1,1 MB/s,1 MB/s,proxied data,blue
+11,n-fed-02,authn,1,1 MB/s,1 MB/s,proxied data,blue
+11,n-fed-03,authn,1,1 MB/s,1 MB/s,proxied data,blue
+11,n-fed-04,authn,1,1 MB/s,1 MB/s,proxied data,blue
+11,n-fed-05,authn,1,1 MB/s,1 MB/s,proxied data,blue
+11,n-fed-06,authn,1,1 MB/s,1 MB/s,proxied data,blue
+12,authn,n-auth-01,1,1 MB/s,1 MB/s,proxied data,blue
+12,authn,n-auth-02,1,1 MB/s,1 MB/s,proxied data,blue
+12,authn,n-auth-03,1,1 MB/s,1 MB/s,proxied data,blue
+12,authn,n-auth-04,1,1 MB/s,1 MB/s,proxied data,blue
+12,authn,n-auth-05,1,1 MB/s,1 MB/s,proxied data,blue
+12,authn,n-auth-06,1,1 MB/s,1 MB/s,proxied data,blue
+13,n-auth-01,authz,1,1 MB/s,1 MB/s,proxied data,blue
+13,n-auth-02,authz,1,1 MB/s,1 MB/s,proxied data,blue
+13,n-auth-03,authz,1,1 MB/s,1 MB/s,proxied data,blue
+13,n-auth-04,authz,1,1 MB/s,1 MB/s,proxied data,blue
+13,n-auth-05,authz,1,1 MB/s,1 MB/s,proxied data,blue
+13,n-auth-06,authz,1,1 MB/s,1 MB/s,proxied data,blue

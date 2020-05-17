@@ -1,0 +1,14 @@
+{
+  "nodes": [
+    {"id": "idp", "group": 1},
+    {"id": "sp", "group": 1},
+    {"id": "proxy", "group": 1},
+    {"id": "agent", "group": 1}
+  ],
+  "links": [
+    {"source": "agent", "target": "idp", "value": 1},
+    {"source": "agent", "target": "sp", "value": 9},
+    {"source": "sp", "target": "proxy", "value": 5},
+    {"source": "idp", "target": "proxy", "value": 5}
+  ]
+}

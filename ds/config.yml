@@ -1,0 +1,87 @@
+Node Types:
+  Strategy:
+    - Resource
+    - Capability
+    - CourseOfAction
+    - ValueStream
+  Business:
+    - Actor
+    - Role
+    - Collaboration
+    - Interface
+    - Process
+    - Function
+    - Interaction
+    - Event
+    - Service
+    - Object
+    - Contract
+    - Representation
+    - Product
+    - Location
+  Application:
+    - Component
+    - Collaboration
+    - Interface
+    - Function
+    - Interaction
+    - Process
+    - Event
+    - Service
+    - DataObject
+  Technology:
+    - Node
+    - Device
+    - SystemSoftware
+    - Collaboration
+    - Interface
+    - Path
+    - CommunicationNetwork
+    - Function
+    - Process
+    - Interaction
+    - Event
+    - Service
+    - Artifact
+  Physical:
+    - Equipment
+    - Facility
+    - DistributionNetwork
+    - Material
+  Motivation:
+    - Stakeholder
+    - Driver
+    - Assessment
+    - Goal
+    - Outcome
+    - Principle
+    - Requirement
+    - Constraint
+    - Meaning
+    - Value
+  Implementaton:
+    - WorkPackage
+    - Deliverable
+    - Event
+    - Plateau
+    - Gap
+
+Element:
+  name: 'e_name'
+  description: 'e_desc'
+  scope: 'e_scope'
+  type: 'e_type'
+
+Node:
+  id: Element['name']
+  label: Element['name']
+  group: 'n_group'
+
+Link:
+  source: 'l_source'
+  target: 'l_target'
+  value: 'l_value'
+  txrate: 'l_tx'
+  rxrate: 'l_rx'
+  dtype: 'l_dtype'
+  drisk: 'l_drisk'

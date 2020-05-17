@@ -1,0 +1,24 @@
+agent:
+  name: agent
+  scope: Business
+  type: Process
+
+sp:
+  name: sp
+  scope: Technology
+  type: Node
+
+idp:
+  name: idp
+  scope: Technology
+  type: Node
+
+proxy:
+  name: AuthN Proxy
+  scope: Technology
+  type: Interface
+
+authn:
+  name: authn
+  scope: Technology
+  type: Interface

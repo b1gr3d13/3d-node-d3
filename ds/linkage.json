@@ -1,0 +1,522 @@
+{
+  "links": [
+    {
+      "rank": "7",
+      "source": "sp",
+      "target": "proxy",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "red"
+    },
+    {
+      "rank": "10",
+      "source": "LB1",
+      "target": "n_fed_01",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "red"
+    },
+    {
+      "rank": "10",
+      "source": "LB1",
+      "target": "n_fed_02",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "red"
+    },
+    {
+      "rank": "10",
+      "source": "LB1",
+      "target": "n_fed_03",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "red"
+    },
+    {
+      "rank": "10",
+      "source": "LB2",
+      "target": "n_fed_04",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "red"
+    },
+    {
+      "rank": "10",
+      "source": "LB2",
+      "target": "n_fed_05",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "red"
+    },
+    {
+      "rank": "10",
+      "source": "LB2",
+      "target": "n_fed_06",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "red"
+    },
+    {
+      "rank": "8",
+      "source": "proxy",
+      "target": "LB1",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "red"
+    },
+    {
+      "rank": "9",
+      "source": "proxy",
+      "target": "LB2",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "a",
+      "source": "admin",
+      "target": "admin_laptop",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "1",
+      "source": "user",
+      "target": "user_laptop",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "3",
+      "source": "user_laptop",
+      "target": "user_device",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "2",
+      "source": "user",
+      "target": "user_device",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "4",
+      "source": "user_device",
+      "target": "agent",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "5",
+      "source": "agent",
+      "target": "resource",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "6",
+      "source": "agent",
+      "target": "sp",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "b",
+      "source": "admin_laptop",
+      "target": "sp",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "c",
+      "source": "admin_laptop",
+      "target": "idp",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "11",
+      "source": "n_fed_01",
+      "target": "authn",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "11",
+      "source": "n_fed_02",
+      "target": "authn",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "11",
+      "source": "n_fed_03",
+      "target": "authn",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "11",
+      "source": "n_fed_04",
+      "target": "authn",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "11",
+      "source": "n_fed_05",
+      "target": "authn",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "11",
+      "source": "n_fed_06",
+      "target": "authn",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "12",
+      "source": "authn",
+      "target": "n_auth_01",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "12",
+      "source": "authn",
+      "target": "n_auth_02",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "12",
+      "source": "authn",
+      "target": "n_auth_03",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "12",
+      "source": "authn",
+      "target": "n_auth_04",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "12",
+      "source": "authn",
+      "target": "n_auth_05",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "12",
+      "source": "authn",
+      "target": "n_auth_06",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "13",
+      "source": "n_auth_01",
+      "target": "authz",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "13",
+      "source": "n_auth_02",
+      "target": "authz",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "13",
+      "source": "n_auth_03",
+      "target": "authz",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "13",
+      "source": "n_auth_04",
+      "target": "authz",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "13",
+      "source": "n_auth_05",
+      "target": "authz",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    },
+    {
+      "rank": "13",
+      "source": "n_auth_06",
+      "target": "authz",
+      "value": "1",
+      "txrate": "1 MB/s",
+      "rxrate": "1 MB/s",
+      "dtype": "proxied data",
+      "drisk": "blue"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sp",
+      "label": "sp",
+      "node": "n8eb0bd982c0c5fefa9466dd14f814948",
+      "group": "1"
+    },
+    {
+      "id": "proxy",
+      "label": "proxy",
+      "node": "ncd0764d6a77359a1ada4f822615f7394",
+      "group": "1"
+    },
+    {
+      "id": "LB1",
+      "label": "LB1",
+      "node": "n5295082e5808543f8f39bf6f2ed31f41",
+      "group": "1"
+    },
+    {
+      "id": "n_fed_01",
+      "label": "n-fed-01",
+      "node": "ned251c739c625df9b7c200abeae7c7fe",
+      "group": "1"
+    },
+    {
+      "id": "n_fed_02",
+      "label": "n-fed-02",
+      "node": "n017143a7ca67599090011cfd946070e8",
+      "group": "1"
+    },
+    {
+      "id": "n_fed_03",
+      "label": "n-fed-03",
+      "node": "n9ba81c24c07b5ce89445be3347c27b1f",
+      "group": "1"
+    },
+    {
+      "id": "LB2",
+      "label": "LB2",
+      "node": "na9f0550a6e4259a4bcd4552e088343fe",
+      "group": "1"
+    },
+    {
+      "id": "n_fed_04",
+      "label": "n-fed-04",
+      "node": "n22fd9f33e18b5539a68e6bbc25f25581",
+      "group": "1"
+    },
+    {
+      "id": "n_fed_05",
+      "label": "n-fed-05",
+      "node": "nbc1b472f06ea561a89a5385c57c90093",
+      "group": "1"
+    },
+    {
+      "id": "n_fed_06",
+      "label": "n-fed-06",
+      "node": "ncbfb70b2982959cdbcbd9d746bac97b9",
+      "group": "1"
+    },
+    {
+      "id": "admin",
+      "label": "admin",
+      "node": "nae6c10d00b13554cb976a05d8a18f0cc",
+      "group": "1"
+    },
+    {
+      "id": "admin_laptop",
+      "label": "admin-laptop",
+      "node": "ncc9ca079179d5a0b975c696c38a9f3dc",
+      "group": "1"
+    },
+    {
+      "id": "user",
+      "label": "user",
+      "node": "n86fb818d9e925942a62ab31717e7a536",
+      "group": "1"
+    },
+    {
+      "id": "user_laptop",
+      "label": "user-laptop",
+      "node": "nebe04b83bac858b08adb2478f69fa5e4",
+      "group": "1"
+    },
+    {
+      "id": "user_device",
+      "label": "user-device",
+      "node": "nd71e8595419d5eabbf60304bc0599c09",
+      "group": "1"
+    },
+    {
+      "id": "agent",
+      "label": "agent",
+      "node": "n5f6d6fc0e6aa5365a4a098d6fa3af190",
+      "group": "1"
+    },
+    {
+      "id": "resource",
+      "label": "resource",
+      "node": "n1e30fd4f31305376827a46e11682cc6f",
+      "group": "1"
+    },
+    {
+      "id": "idp",
+      "label": "idp",
+      "node": "nb2b65416e49e5592abffa4de31f437b8",
+      "group": "1"
+    },
+    {
+      "id": "authn",
+      "label": "authn",
+      "node": "n9cf7a1be40b85db98b9548a2e1d12ed1",
+      "group": "1"
+    },
+    {
+      "id": "n_auth_01",
+      "label": "n-auth-01",
+      "node": "n68ca2626c72b52b8bd87d77ac9289538",
+      "group": "1"
+    },
+    {
+      "id": "n_auth_02",
+      "label": "n-auth-02",
+      "node": "n99f173dc5634557ca26b9c927f378a85",
+      "group": "1"
+    },
+    {
+      "id": "n_auth_03",
+      "label": "n-auth-03",
+      "node": "n543d92cd51ab5b2bb34105d59495527d",
+      "group": "1"
+    },
+    {
+      "id": "n_auth_04",
+      "label": "n-auth-04",
+      "node": "nc21e993f9e605fe68cf87bd066437f5c",
+      "group": "1"
+    },
+    {
+      "id": "n_auth_05",
+      "label": "n-auth-05",
+      "node": "n1d31c2bcd21f5e13b6345b9013528ba8",
+      "group": "1"
+    },
+    {
+      "id": "n_auth_06",
+      "label": "n-auth-06",
+      "node": "n61f49c7b0908573c9af4a8e1405bd617",
+      "group": "1"
+    },
+    {
+      "id": "authz",
+      "label": "authz",
+      "node": "nabaa6576e9b95b179eb0dcaa91c98d22",
+      "group": "1"
+    }
+  ]
+}

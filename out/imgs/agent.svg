@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="253.125px" preserveAspectRatio="none" style="width:681px;height:253px;" version="1.1" viewBox="0 0 681 253" width="681.25px" zoomAndPan="magnify"><defs><filter height="300%" id="fp6988ck0t2xa" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="6.25"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="12.5" dy="12.5" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ca87f10b7dee07e1e55f9eb4a33c33e0]
+class agent--><rect fill="#F8F8FF" filter="url(#fp6988ck0t2xa)" height="199.9023" id="agent" rx="15.625" ry="15.625" style="stroke: #000000; stroke-width: 4.6875;" width="625" x="21.875" y="21.875"/><path d="M248.4375,46.7773 L247.85,47.0711 L236.9125,51.6617 L235.9344,52.0523 L235.9344,53.0305 C235.9344,58.2086 238.0156,62.7867 240.525,66.118 C241.7781,67.7836 243.1125,69.1461 244.4313,70.1211 C245.75,71.0992 247.0125,71.7805 248.4344,71.7805 C249.8563,71.7805 251.1219,71.0961 252.4375,70.1211 C253.7563,69.143 255.0906,67.7805 256.3438,66.118 C258.8531,62.7898 260.9344,58.2117 260.9344,53.0305 L260.9344,52.0523 L259.9563,51.6617 L249.0188,47.0711 L248.4313,46.7773 M248.4313,50.1961 L248.4313,68.6523 C248.2906,68.6523 247.4063,68.4367 246.3813,67.6742 C245.3563,66.9117 244.15,65.7023 243.0594,64.2555 C241.0531,61.5961 239.5063,57.9273 239.25,54.0023 L248.4313,50.193 " fill="#000000" style="stroke: ; stroke-width: 0.0; stroke-dasharray: ;"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="0" x="276.5625" y="72.3083"/><path d="M290.625,46.7773 L289.0625,50.4898 L288.1844,50.8805 L284.4719,49.318 L282.225,51.5648 L283.7875,55.2773 L283.3969,56.1555 L279.6844,57.718 L279.6844,60.843 L283.3969,62.4055 L283.7875,63.3836 L282.225,66.9961 L284.4719,69.243 L288.1844,67.6805 L289.0625,68.0711 L290.625,71.7836 L293.75,71.7836 L295.3125,68.0711 L296.1906,67.6805 L299.9031,69.243 L302.15,66.9961 L300.5875,63.2836 L300.9781,62.4055 L304.6906,60.843 L304.6906,57.718 L300.9781,56.1555 L300.5875,55.2773 L302.0531,51.5648 L299.9031,49.318 L296.1906,50.8805 L295.3125,50.4898 L293.75,46.7773 L290.625,46.7773 M292.1875,54.5898 C294.7813,54.5898 296.875,56.6836 296.875,59.2773 C296.875,61.8711 294.7813,63.9648 292.1875,63.9648 C289.5938,63.9648 287.5,61.8711 287.5,59.2773 C287.5,56.6836 289.5938,54.5898 292.1875,54.5898 " fill="#000000" style="stroke: ; stroke-width: 0.0; stroke-dasharray: ;"/><text fill="#000000" font-family="sans-serif" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="115.625" x="320.3125" y="72.3083">Agent</text><line style="stroke: #000000; stroke-width: 4.6875;" x1="25" x2="643.75" y1="96.7773" y2="96.7773"/><image height="75" width="75" x="40.625" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABXUlEQVR4Xu3VPyhFURwH8F8o/4oMMpvIjGJRmGRT/owW/xaDSGKyMpnsNhNiMlCKgbzHYLIoKYMUxeLP93fOj/vr3PvePedKFt/61O/+3jm/+17ddy5R8VRBrdtUqYcytxmScph1myoLUOI2QzMOq3ACd3ALR7AGg2pdpkzDK3wU8Ayj36sDM0V2yCUcSK3tw5XUI3aLf+rgiezmY9iSWtuEU6nvodLs9MwAxQem6TY7PTMM14H6zM4i6YUbWIEuWA/URvZp4xk9lJA9in7uvKp9Tah6lxJySNGCZVX7mlE1z4rl/wZ/f4Mdsh++wZzUIcbgXeptSkgn5GERJik+IA2fR0tkZ3RQSviIdgekGTI7PdNI9gBzhxTC/94GszMg/LpsgXN4Ee3Qqq4vZE2F7MmUM4q+aQ1Uq+ucWpc5v36Dr8f3EUrJvuQfpMcH5I/TBBvQr3p89nOvWfUS8wmfBQh8ybHxkQAAAABJRU5ErkJggg==" y="109.2773"/><image height="75" width="75" x="115.625" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABmElEQVR4Xu3USShFURzH8b+pKNkokqmwIGUlkpSFLAxrGUuxUFJ21hRZ2IlsKGVtI5RhIztZSGwNGRYkQ7Iwff/Ou9495w29h6VffTb3/z/n3nvuuUfkP3+cZCS4F38TnawR3ehAGzrRhR6UBVvjSxbyMYQip+YlES1oQrZTi5pc7KAVKcjBIir8TYFofQzbYt4qptRjGud4xhHm/A1ORvGIMzQ4tbBpx4djCpNi1t1NKi7wihWnFhJd1xMJvYEu0QP6vjvtzIvpu3YLbqoldHJ9umOJ/CFLsCGmVx+i1i7baRZ78lXsos7f5ER3nH/MsF22o3vca7zCDbaQ6W9ykif2DQbssp1CCTY+4RabOMSCmO34hglvgJgd543RD13gq4XNgQQH6Jq+YAbvuESvBI8L/Q/0G3n964HrUTMi9isr3R39Yn46L6WYdfqWffWIScephN5E7WMJe7hzavqGem7FlCoxy+PeIBJd+8GvkXGkUiK/iZ8eJzWBMXEnA+O4l/ATr0n0fyTmpKFczImp61yMJKvjPz/NJ16YiGfFtKQcAAAAAElFTkSuQmCC" y="109.2773"/><line style="stroke: #000000; stroke-width: 4.6875;" x1="25" x2="643.75" y1="196.7773" y2="196.7773"/><!--MD5=[bb238b520a74ea12217fbd77743f17cf]
+@startuml agent
+
+hide circle
+
+skinparam {
+    MinClassWidth 200
+    ClassBackgroundColor ghostwhite
+    ClassBorderColor black
+    RoundCorner 10
+
+    dpi 300
+    scale 200*100
+}
+class "<&shield> <&cog> Agent" as agent {
+<img:imgs/android.png{scale=0.5}><img:imgs/firefox.png{scale=0.5}>
+}
+@enduml
+
+PlantUML version 1.2020.05(Thu Mar 19 14:17:32 PDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.7+10-post-Ubuntu-2ubuntu218.04
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

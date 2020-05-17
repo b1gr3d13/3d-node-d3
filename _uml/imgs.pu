@@ -1,0 +1,287 @@
+
+@startuml sp
+skinparam dpi 300
+skinparam scale 200*100
+!include archimate.pu
+Technology_Node(n8eb0bd982c0c5fefa9466dd14f814948,sp)
+@enduml
+
+@startuml AuthN_Proxy
+skinparam dpi 300
+skinparam scale 200*100
+!include archimate.pu
+Technology_Interface(ncd0764d6a77359a1ada4f822615f7394,AuthN Proxy)
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml LB1
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "LB1" as n5295082e5808543f8f39bf6f2ed31f41
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_fed_01
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-fed-01" as ned251c739c625df9b7c200abeae7c7fe
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_fed_02
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-fed-02" as n017143a7ca67599090011cfd946070e8
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_fed_03
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-fed-03" as n9ba81c24c07b5ce89445be3347c27b1f
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml LB2
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "LB2" as na9f0550a6e4259a4bcd4552e088343fe
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_fed_04
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-fed-04" as n22fd9f33e18b5539a68e6bbc25f25581
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_fed_05
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-fed-05" as nbc1b472f06ea561a89a5385c57c90093
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_fed_06
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-fed-06" as ncbfb70b2982959cdbcbd9d746bac97b9
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml admin
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "admin" as nae6c10d00b13554cb976a05d8a18f0cc
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml admin_laptop
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "admin-laptop" as ncc9ca079179d5a0b975c696c38a9f3dc
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml user
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "user" as n86fb818d9e925942a62ab31717e7a536
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml user_laptop
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "user-laptop" as nebe04b83bac858b08adb2478f69fa5e4
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml user_device
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "user-device" as nd71e8595419d5eabbf60304bc0599c09
+@enduml
+
+@startuml agent
+skinparam dpi 300
+skinparam scale 200*100
+!include archimate.pu
+Business_Process(n5f6d6fc0e6aa5365a4a098d6fa3af190,agent)
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml resource
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "resource" as n1e30fd4f31305376827a46e11682cc6f
+@enduml
+
+@startuml idp
+skinparam dpi 300
+skinparam scale 200*100
+!include archimate.pu
+Technology_Node(nb2b65416e49e5592abffa4de31f437b8,idp)
+@enduml
+
+@startuml authn
+skinparam dpi 300
+skinparam scale 200*100
+!include archimate.pu
+Technology_Interface(n9cf7a1be40b85db98b9548a2e1d12ed1,authn)
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_auth_01
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-auth-01" as n68ca2626c72b52b8bd87d77ac9289538
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_auth_02
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-auth-02" as n99f173dc5634557ca26b9c927f378a85
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_auth_03
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-auth-03" as n543d92cd51ab5b2bb34105d59495527d
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_auth_04
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-auth-04" as nc21e993f9e605fe68cf87bd066437f5c
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_auth_05
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-auth-05" as n1d31c2bcd21f5e13b6345b9013528ba8
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml n_auth_06
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "n-auth-06" as n61f49c7b0908573c9af4a8e1405bd617
+@enduml
+
+
+DIDNT FIND SHIT, so you get a box
+
+@startuml authz
+skinparam dpi 300
+skinparam scale 200*100
+skinparam objectBorderColor black
+skinparam objectBackgroundColor ghostwhite
+skinparam RoundCorner 10
+object "authz" as nabaa6576e9b95b179eb0dcaa91c98d22
+@enduml

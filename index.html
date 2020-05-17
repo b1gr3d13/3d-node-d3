@@ -1,0 +1,67 @@
+<head>
+  <style> body { margin: 0; } </style>
+  <script src="src/three.js"></script>
+  <script src="src/three-spritetext.js"></script>
+  <script src="src/3d-force-graph.min.js"></script>
+</head>
+
+
+<body>
+  <div id="3d-graph"></div>
+
+  <script>
+    const elem = document.getElementById('3d-graph');
+
+    const Graph = ForceGraph3D()
+      (elem)
+        .jsonUrl('ds/linkage.json')
+        .nodeLabel('label')
+        .nodeAutoColorBy('group')
+        .onNodeHover(node => elem.style.cursor = node ? 'pointer' : null)
+        .onNodeClick(node => {
+          // Aim at node from outside it
+          const distance = 40;
+          const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+
+          Graph.cameraPosition(
+            { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, // new position
+            node, // lookAt ({ x, y, z })
+            3000  // ms transition duration
+          );
+        })
+        .linkDirectionalParticles("value")
+        .linkDirectionalParticleSpeed(d => d.value * 0.001)
+        .nodeThreeObject(({ id }) => {
+        // use a sphere as a drag handle
+        const obj = new THREE.Mesh(
+          new THREE.SphereGeometry(7),
+          new THREE.MeshBasicMaterial({ depthWrite: false, transparent: true, opacity: 0 })
+        );
+        // add img sprite as child
+        const imgTexture = new THREE.TextureLoader().load(`./out/_uml/imgs/${id}.svg`);
+        const material = new THREE.SpriteMaterial({ map: imgTexture });
+        const sprite = new THREE.Sprite(material);
+        sprite.scale.set('17', '10');
+        obj.add(sprite);
+        return obj;})
+      .linkThreeObjectExtend(true)
+        .linkThreeObject(link => {
+          // extend link with text sprite
+          const sprite = new SpriteText(`${link.dtype}\n${link.txrate}`);
+          sprite.color = 'lightgrey';
+          // use this to show label with risk color:
+          // sprite.color = link.drisk;
+          sprite.textHeight = 1.5;
+          return sprite;
+        })
+        .linkDirectionalParticleColor(link => link.drisk)
+        .linkPositionUpdate((sprite, { start, end }) => {
+          const middlePos = Object.assign(...['x', 'y', 'z'].map(c => ({
+            [c]: start[c] + (end[c] - start[c]) / 2 // calc middle point
+          })));
+          // Position sprite
+          Object.assign(sprite.position, middlePos);
+        });      
+  </script>
+
+</body>

@@ -1,0 +1,41 @@
+<head>
+  <style> body { margin: 0; } </style>
+
+  <script src="../../src/three.js"></script>
+  <script src="../../src/3d-force-graph.min.js"></script>
+  <!-- <script src="src/3d-force-graph.min.js"></script> -->
+  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+</head>
+
+<body>
+  <div id="3d-graph"></div>
+
+  <script>
+    const Graph = ForceGraph3D()
+      (document.getElementById('3d-graph'))
+        // .jsonUrl('../datasets/miserables.json')
+        .jsonUrl('../datasets/mynodes.json')
+        .nodeLabel('id')
+        .nodeAutoColorBy('group')
+        .linkDirectionalParticles("value")
+        .linkDirectionalParticleSpeed(d => d.value * 0.001)
+        
+        .nodeThreeObject(({ id }) => {
+        // use a sphere as a drag handle
+        const obj = new THREE.Mesh(
+          new THREE.SphereGeometry(7),
+          new THREE.MeshBasicMaterial({ depthWrite: false, transparent: true, opacity: 0 })
+        );
+
+        // add img sprite as child
+        const imgTexture = new THREE.TextureLoader().load(`./../../out/imgs/${id}.svg`);
+        const material = new THREE.SpriteMaterial({ map: imgTexture });
+        const sprite = new THREE.Sprite(material);
+        sprite.scale.set('15', '10');
+        obj.add(sprite);
+
+        return obj;
+      })
+      ;
+  </script>
+</body>

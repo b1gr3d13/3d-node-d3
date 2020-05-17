@@ -1,0 +1,34 @@
+@startuml idp
+!include common.pu
+class "<&shield> <&cog> Identity Provider" as idp {
+
+}
+@enduml
+
+@startuml sp
+!include common.pu
+class "<&shield> <&cog> Service Provider" as sp {
+
+}
+@enduml
+
+@startuml agent
+!include common.pu
+class "<&shield> <&cog> Agent" as agent {
+<img:_sprites/android.png{scale=0.5}><img:_sprites/firefox.png{scale=0.5}>
+}
+@enduml
+
+@startuml proxy
+' !include common.pu
+!include archimate.pu
+Stakeholder(one,one)
+Business_Actor(user_1,User 1)
+Business_Actor(EndUserRole,End User)
+
+user_1 -> EndUserRole
+
+@enduml
+
+renderer.setPixelRatio(window.devicePixelRatio);
+S
